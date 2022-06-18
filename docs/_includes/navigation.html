@@ -2,7 +2,7 @@
 	<ul class='nav-bar'>
 		{% for item in site.data.navigation %}
 			<li class='nav-bar'>
-				<a href="{{ item.link | relative.url }}" {% if page.url == item.link %}class="current-page"{% endif %} class='nav-bar'>
+				<a href="{{ item.link }}" {% if page.url == item.link %}class="current-page"{% endif %} class='nav-bar'>
 					{{ item.name | upcase }}
 				</a>
 			</li>
