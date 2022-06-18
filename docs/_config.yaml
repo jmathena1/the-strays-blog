@@ -3,4 +3,6 @@ plugins:
     - jekyll-feed
     - jekyll-sitemap
     - jekyll-seo-tag
-        
+domain: johnwmathena.com
+url: https://www.johnwmathena.com/the-strays-blog/
+baseurl: /the-strays-blog/
