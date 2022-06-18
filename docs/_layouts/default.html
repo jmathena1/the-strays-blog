@@ -1,11 +1,14 @@
+---
+---
+
 <!doctype html>
 
 <html>
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset='utf-8'>
 		<title>{{page.title}}</title>
-		<link rel="stylesheet", href='/assets/css/styles.css'>
-		<script src="/assets/js/the-strays.js"></script>
+		<link rel="stylesheet", href="{{ '/assets/css/styles.css' | relative_url }}">
+		<script src="{{ '/assets/js/the-strays.js' | relative_url }}"></script>
 		{% feed_meta %}
 		{% seo %}
 			
@@ -17,7 +20,7 @@
 		<button id='main' class="openbtn" onclick="openNav()"><--Return to<br>JM DOT COM</button>
 		The Strays
 		<a href="/">
-			<img title='The Strays' id ='blog-logo-header' class='blog-logo-image' src='/assets/images/the-strays-logo.png' 
+			<img title='The Strays' id ='blog-logo-header' class='blog-logo-image' src="{{ '/assets/images/the-strays-logo.png' | relative_url }}"
 			alt='the strays written with tall grass in background'>
 		</a>
 		
@@ -47,9 +50,12 @@
 	
 	<div class='website-footer'>
 		<footer>
-			<a href='https://www.linkedin.com/in/johnwmathena' target='_blank'><img id='social-media-photo' src='/assets/images/linkedin.png'></a>
-			<a href='https://www.github.com/jmathena1' target='_blank'><img id='social-media-photo' src='/assets/images/github.png' ></a>
-			<a href='https://www.twitter.com/JohnMathena6' target='_blank'><img id='social-media-photo' src='/assets/images/twitter.png'></a>
+			<a href='https://www.linkedin.com/in/johnwmathena' target='_blank'><img id='social-media-photo' 
+				src="{{ '/assets/images/linkedin.png' | relative_url }}"></a>
+			<a href='https://www.github.com/jmathena1' target='_blank'><img id='social-media-photo' 
+				src="{{ '/assets/images/github.png' | relative_url }}" ></a>
+			<a href='https://www.twitter.com/JohnMathena6' target='_blank'><img id='social-media-photo' 
+				src="{{ '/assets/images/twitter.png' | relative_url }}"></a>
 		</footer>
 	</div>
 </html>
