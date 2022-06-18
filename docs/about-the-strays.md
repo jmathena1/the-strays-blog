@@ -1,6 +1,6 @@
 ---
-layout: default
-title: About
+layout: default-the-strays
+title: About The Strays
 ---
 
 # Welcome to the Strays
