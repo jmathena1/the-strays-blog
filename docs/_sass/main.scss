@@ -62,6 +62,12 @@ greek villa - #F0ECE2
 	right: 0px;
 }
 
+@media only screen and (max-width: 415px) { 
+	img.website-header { 
+		width: 50%; 
+	} 
+} 
+
 .all-blog-posts-page {
 	list-style: none;
 }
@@ -225,7 +231,7 @@ a.nav-bar {
 /* The button used to open the sidebar */
 .openbtn {
   font-family: georgia, times-new-roman;
-  font-size: 10px;
+  font-size: 16px;
   cursor: pointer;
   background-color: #acad97;
   color: #000000;
