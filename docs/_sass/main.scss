@@ -99,7 +99,7 @@ a.nav-bar {
 	color: #acad97;
 }
 
-#blog-logo-home {
+.blog-logo-home {
 	display: block;
 	width: 25%;
 	max-width: 100%;
@@ -109,7 +109,7 @@ a.nav-bar {
 }
 
 @media screen and (max-width: 415px) {
-	#blog-logo-home img {
+	img.blog-logo-home {
 		width: 50%;
 		height: 50%;
 	}
