@@ -62,10 +62,10 @@ greek villa - #F0ECE2
 	right: 0px;
 }
 
-@media screen and (max-width: 415px) { 
-	a.website-header { 
-		width: 75%; 
-	} 
+@media screen and (max-width: 415px) {
+	.blog-logo-image {
+		width: 75%;
+	}
 } 
 
 .all-blog-posts-page {
