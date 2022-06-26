@@ -62,13 +62,6 @@ greek villa - #F0ECE2
 	right: 0px;
 }
 
-@media screen and (max-width: 415px) {
-	#blog-logo-home {
-		width: 50%;
-		height: 50%;
-	}
-} 
-
 .all-blog-posts-page {
 	list-style: none;
 }
@@ -114,6 +107,14 @@ a.nav-bar {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+@media screen and (max-width: 415px) {
+	#blog-logo-home {
+		width: 50%;
+		height: 50%;
+		display: none;
+	}
+} 
 
 .blog-post-content {
 	width: 75%;
