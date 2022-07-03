@@ -5,9 +5,23 @@ chesterfield green - #626439
 greek villa - #F0ECE2
 */
 @viewport { width: device-width; zoom: 1.0; }
-.center { display: block; margin-left: auto; margin-right: auto; width: 50%; }
+@media screen and (max-width: 415px) { .homepage-title { font-size: 20px !important; width: 75% !important; padding-right: 15vw !important; }
+  #blog-logo-header { opacity: 0; }
+  .nav-bar-menu { width: 75% !important; }
+  .nav-bar-item { font-size: 14px !important; } }
+html { background-color: #acad97; font-family: georgia, times-new-roman; overflow-y: scroll; }
 
-.website-header { font-family: georgia, times-new-roman; text-align: center; color: #000000; background-color: #acad97; margin-left: -8px; margin-right: -8px; margin-top: -25px; padding-top: 30px; padding-bottom: 30px; }
+.container-flexbox { width: 100%; max-width: 100%; display: flex; flex-grow: 1; flex-wrap: nowrap; }
+
+.return-jwm { display: flex; font-family: georgia, times-new-roman; font-size: 14px; background-color: #acad97; color: #000000; margin-left: auto; }
+
+a.return-jwm { text-decoration: none; }
+
+.return-jwm:hover { background-color: #000000; color: #acad97; }
+
+.homepage-title { width: 100%; max-width: 100%; display: flex; flex-wrap: nowrap; font-size: 28px; justify-content: center; align-items: center; padding-right: 5vw; }
+
+#blog-logo-header { display: flex; width: auto; max-width: 100%; height: auto; margin-right: auto; position: absolute; top: 0px; right: 5px; }
 
 .website-footer { font-family: georgia, times-new-roman; text-align: center; color: #000000; background-color: #acad97; width: 100%; max-width: 100%; height: 75px; margin-bottom: -25px; }
 
@@ -15,21 +29,17 @@ greek villa - #F0ECE2
 
 #social-media-photo:hover { opacity: 0.7; }
 
-#blog-logo-header { display: block; width: auto; max-width: 100%; height: auto; margin-left: auto; margin-right: auto; position: absolute; top: 0px; right: 0px; }
-
 .all-blog-posts-page { list-style: none; }
 
-.nav-bar { width: 75%; max-width: 100%; margin: 0 auto; text-align: center; font-family: georgia, times-new-roman; }
+.nav-bar-menu { width: 50%; max-width: 100%; margin-right: auto; margin-left: auto; display: flex; list-style-type: none; justify-content: space-evenly; }
 
-ul.nav-bar { padding: 10px; display: inline-block; list-style: none; }
+.nav-bar-item { display: flex; font-size: 22px; font-family: georgia, times-new-roman; }
 
-li.nav-bar { width: 33%; float: left; }
+a.nav-bar-menu { color: #000000; text-decoration: none; }
 
-a.nav-bar { text-decoration: none; color: #000000; }
+a.nav-bar-menu:hover { color: #F0ECE2; text-decoration: underline; }
 
-.nav-bar a:hover { color: #acad97; text-decoration: underline; }
-
-.current-page { color: #acad97; }
+.current-page { color: #F0ECE2; text-decoration: underline; }
 
 .blog-logo-home { display: block; width: 25%; max-width: 100%; height: 25%; margin-left: auto; margin-right: auto; }
 
@@ -41,46 +51,3 @@ a.nav-bar { text-decoration: none; color: #000000; }
 .solid-port-section-divider { border-top: 3px solid #000000; }
 
 .solid-blog-section-divider { border-top: 1.5px solid #000000; width: 25%; }
-
-.portfolio-description { width: 60%; border-style: solid; border-width: 2.5px; border-color: #acad97; padding: 5px; margin: auto; }
-
-.port-org-image { display: block; width: auto; max-width: 100%; height: 100%; margin-left: auto; margin-right: auto; }
-
-.portfolio-tools { text-align: center; background-color: #FFFFFF; width: 100%; max-width: 100%; height: 50px; }
-
-.project-view-button { background-color: #acad97; border: none; color: #FFFFFF; padding: 15px 32px; text-align: center; text-decoration: none; display: flex; justify-content: center; font-size: 16px; width: 50%; margin-left: auto; margin-right: auto; }
-
-#blog-main { box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); transition: 0.75s; width: 50%; max-width: 100%; margin: auto; padding-left: 10px; padding-right: 5px; }
-
-/* The sidebar menu */
-.sidebar { height: 100%; /* 100% Full-height */ width: 0; /* 0 width - change this with JavaScript */ position: fixed; /* Stay in place */ z-index: 1; /* Stay on top */ top: 0; left: 0; background-color: #F0ECE2; /* Black*/ overflow-x: hidden; /* Disable horizontal scroll */ padding-top: 60px; /* Place content 60px from the top */ transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */ }
-
-/* The sidebar links */
-.sidebar a { padding: 8px 8px 8px 32px; text-decoration: none; font-family: georgia, times-new-roman; font-size: 25px; color: #000000; display: block; transition: 0.3s; }
-
-/* When you mouse over the navigation links, change their color */
-.sidebar a:hover { color: #acad97; }
-
-/* Position and style the close button (top right corner) */
-.sidebar .closebtn { position: absolute; top: 0; right: 25px; font-size: 36px; margin-left: 50px; }
-
-/* The button used to open the sidebar */
-.openbtn { font-family: georgia, times-new-roman; font-size: 14px; cursor: pointer; background-color: #acad97; color: #000000; padding: 10px 15px; border: none; position: absolute; left: 5px; transform: translateY(-33%); }
-
-.openbtn:hover { background-color: #000000; color: #acad97; }
-
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
-#main { transition: margin-left .5s; /* If you want a transition effect */ padding: 20px; }
-
-/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
-@media screen and (max-height: 450px) { .sidebar { padding-top: 15px; }
-  .sidebar a { font-size: 18px; } }
-details { user-select: none; }
-
-details > summary span.icon { width: 24px; height: 24px; transition: all 0.3s; margin-left: auto; }
-
-details[open] summary span.icon { color: #acad97; }
-
-summary { display: flex; cursor: pointer; }
-
-summary::-webkit-details-marker { display: none; }
