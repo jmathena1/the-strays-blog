@@ -6,12 +6,12 @@ greek villa - #F0ECE2
 */
 @viewport { width: device-width; zoom: 1.0; }
 @media screen and (max-width: 415px) { .homepage-title { font-size: 20px !important; width: 75% !important; padding-right: 15vw !important; }
-  #blog-logo-header { opacity: 0; }
   .nav-bar-menu { width: 75% !important; }
-  .nav-bar-item { font-size: 14px !important; } }
+  .nav-bar-item { font-size: 14px !important; }
+  .blog-post-content { width: 85% !important; } }
 html { background-color: #acad97; font-family: georgia, times-new-roman; overflow-y: scroll; }
 
-.container-flexbox { width: 100%; max-width: 100%; display: flex; flex-grow: 1; flex-wrap: nowrap; }
+.container-flexbox { width: 100%; max-width: 100%; display: flex; flex-grow: 1; flex-wrap: nowrap; justify-content: space-between; align-items: center; }
 
 .return-jwm { display: flex; font-family: georgia, times-new-roman; font-size: 14px; background-color: #acad97; color: #000000; margin-left: auto; }
 
@@ -19,9 +19,7 @@ a.return-jwm { text-decoration: none; }
 
 .return-jwm:hover { background-color: #000000; color: #acad97; }
 
-.homepage-title { width: 100%; max-width: 100%; display: flex; flex-wrap: nowrap; font-size: 28px; justify-content: center; align-items: center; padding-right: 5vw; }
-
-#blog-logo-header { display: flex; width: auto; max-width: 100%; height: auto; margin-right: auto; position: absolute; top: 0px; right: 5px; }
+.homepage-title { width: 100%; max-width: 100%; display: flex; flex-wrap: nowrap; font-size: 36px; }
 
 .website-footer { font-family: georgia, times-new-roman; text-align: center; color: #000000; background-color: #acad97; width: 100%; max-width: 100%; height: 75px; margin-bottom: -25px; }
 
@@ -31,9 +29,9 @@ a.return-jwm { text-decoration: none; }
 
 .all-blog-posts-page { list-style: none; }
 
-.nav-bar-menu { width: 50%; max-width: 100%; margin-right: auto; margin-left: auto; display: flex; list-style-type: none; justify-content: space-evenly; }
+.nav-bar-menu { width: 100%; max-width: 100%; display: flex; }
 
-.nav-bar-item { display: flex; font-size: 22px; font-family: georgia, times-new-roman; }
+.nav-bar-item { display: flex; font-size: 30px; font-family: georgia, times-new-roman; padding-right: 1vw; padding-left: 1vw; }
 
 a.nav-bar-menu { color: #000000; text-decoration: none; }
 
