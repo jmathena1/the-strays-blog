@@ -14,25 +14,16 @@
 	</head>
 	
 	<header class="container-flexbox">
-		<button class="return-jwm">
-			<a href="https://johnwmathena.com/blogs.html" class="return-jwm">
-				Return to<br>JWM<br>Dot Com
-			</a>
-		</button>
 		<b class='homepage-title'>
 		The Strays
 		</b>
-		<a href="/">
-			<img title='The Strays' id ='blog-logo-header' class='blog-logo-image' src="{{ '/assets/images/the-strays-logo.png' | relative_url }}"
-			alt='the strays written with tall grass in background'>
-		</a>
+		<nav id='navigation'>
+			{% include navigation.html %}
+		</nav>
 	</header>
 	
 	<div>
 		<body>
-			<div id='navigation'>
-				{% include navigation.html %}
-			</div>
 			<div class=blog-post-content>
 				{{ content }}
 			</div>

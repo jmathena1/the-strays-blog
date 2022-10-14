@@ -17,12 +17,14 @@ greek villa - #F0ECE2
 		width: 75% !important;
 		padding-right: 15vw !important;
 	}
-	#blog-logo-header {opacity: 0;}
 	.nav-bar-menu {
 		width: 75% !important;
 	}
 	.nav-bar-item {
 		font-size: 14px !important;
+	}
+	.blog-post-content {
+	width: 85% !important;
 	}
 }
 
@@ -38,6 +40,8 @@ html {
 	display: flex;
 	flex-grow: 1;
 	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .return-jwm {
@@ -63,21 +67,7 @@ a.return-jwm {
 	max-width: 100%;
 	display: flex;
 	flex-wrap: nowrap;
-	font-size: 28px;
-	justify-content: center;
-	align-items: center;
-	padding-right: 5vw;
-}
-
-#blog-logo-header {
-	display: flex;
-	width: auto;
-	max-width: 100%;
-	height: auto;
-	margin-right: auto;
-	position: absolute;
-	top: 0px;
-	right: 5px;
+	font-size: 36px;
 }
 
 .website-footer {
@@ -105,19 +95,17 @@ a.return-jwm {
 }
 
 .nav-bar-menu {
-	width: 50%;
+	width: 100%;
 	max-width: 100%;
-	margin-right: auto;
-	margin-left: auto;
 	display: flex;
-	list-style-type: none;
-	justify-content: space-evenly;
 }
 
 .nav-bar-item {
 	display: flex;
-	font-size: 22px;
+	font-size: 30px;
 	font-family: georgia, times-new-roman;
+	padding-right: 1vw;
+	padding-left: 1vw;
 }
 
 a.nav-bar-menu {
