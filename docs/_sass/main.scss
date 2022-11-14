@@ -24,12 +24,13 @@ greek villa - #F0ECE2
 		font-size: 14px !important;
 	}
 	.blog-post-content {
-	width: 85% !important;
+		width: 85% !important;
+		font-size: 18px !important;
 	}
 }
 
 html {
-	background-color: #acad97;
+	background-color: #F0ECE2;
 	font-family: georgia, times-new-roman;
 	overflow-y: scroll;
 }
@@ -74,7 +75,6 @@ a.return-jwm {
 	font-family: georgia, times-new-roman;
 	text-align: center;
 	color: #000000;
-	background-color: #acad97;
 	width: 100%;
 	max-width: 100%;
 	height: 75px;
@@ -114,12 +114,11 @@ a.nav-bar-menu {
 }
 
 a.nav-bar-menu:hover {
-	color: #F0ECE2;
 	text-decoration: underline;
 }
 
 .current-page {
-	color: #F0ECE2;
+	color: #000000;	
 	text-decoration: underline;
 }
 
@@ -141,6 +140,7 @@ a.nav-bar-menu:hover {
 } 
 
 .blog-post-content {
+	font-size: 20px;
 	width: 75%;
 	margin: auto;
 }
