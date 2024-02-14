@@ -39,11 +39,9 @@ html {
         height: 100vh;
 }
 
-body {
-        min-height: 100%;
-        display: grid;
-        grid-template-rows: auto 1fr auto;
-        word-wrap: break-word;
+.website-grid {
+	display: grid;
+	grid-template-rows: repeat(auto, 3);
 }
 
 .container-flexbox {

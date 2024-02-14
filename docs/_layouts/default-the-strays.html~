@@ -32,7 +32,7 @@
 	
 	<div class='website-footer'>
 		<footer>
-			<h3>Let's connect.</h3>
+			<h3>Let's Connect.</h3>
 			<a href='https://www.linkedin.com/in/johnwmathena' target='_blank'><img id='social-media-photo' 
 				src="{{ '/assets/images/linkedin.png' | relative_url }}"></a>
 			<a href='https://www.github.com/jmathena1' target='_blank'><img id='social-media-photo' 
@@ -43,4 +43,4 @@
 				src="{{ 'assets/images/instagram-logo.png' | relative_url }}"></a>
 		</footer>
 	</div>
-</html
+</html>

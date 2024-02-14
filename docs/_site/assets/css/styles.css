@@ -1,4 +1,3 @@
-/* sidebar code source: https://www.w3schools.com/howto/howto_js_collapse_sidebar.asp */
 /*
 clary sage - #acad97
 chesterfield green - #626439
@@ -10,9 +9,9 @@ greek villa - #F0ECE2
   .nav-bar-item { font-size: 14px !important; }
   .blog-post-content { width: 85% !important; font-size: 18px !important; }
   img.blog-logo-home { width: 50%; height: 50%; display: block; } }
-html { background-color: #F0ECE2; font-family: georgia, times-new-roman; overflow-y: scroll; }
+html { background-color: #F0ECE2; font-family: georgia, times-new-roman; overflow-y: scroll; height: 100vh; }
 
-.website-grid { display: grid; grid-template-rows: repeat(auto, 3); }
+body { min-height: 100%; display: grid; grid-template-rows: auto 1fr auto; word-wrap: break-word; }
 
 .container-flexbox { width: 100%; max-width: 100%; display: flex; flex-grow: 1; flex-flow: column nowrap; justify-content: center; }
 

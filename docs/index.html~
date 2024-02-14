@@ -3,7 +3,7 @@ layout: default-the-strays
 title: Home - The Strays
 ---
 <img src="{{ '/assets/images/the-strays-logo.png' | relative_url }}" class='blog-logo-home'>
-<h3 style="text-align: left;">
+<h3 style="text-align: center;">
 Whenever something catches my attention, I use this space to process it.
 <br>
 This blog is the home for the thoughts that pop into your head,
