@@ -1,13 +1,22 @@
 ---
 layout: default-the-strays
-title: Home - The Strays
+title: The Strays
 ---
-<img src="{{ '/assets/images/the-strays-logo.png' | relative_url }}" class='blog-logo-home'>
-<h3 style="text-align: left;">
-Whenever something catches my attention, I use this space to process it.
+<a href="{{ item.link }}">
+	<h1 style="text-align: center">The Strays </h1>
+</a>
 <br>
-This blog is the home for the thoughts that pop into your head,
-float to the back of your mind but never quite seem to leave.
+<p style="text-align: center;"> The home of John Mathena's stray thoughts </p>
 <br>
-The home of the strays. Enjoy!
-</h3>
+<ul class='all-blog-posts-page'>
+	{% for post in site.posts %}
+		<li>
+			<p>
+				<a href="{{ post.url | relative_url }}">
+					{{ post.title }}
+				</a>
+			</p>
+			{{ post.excerpt }}
+		</li>
+	{% endfor %}
+</ul>

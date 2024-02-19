@@ -37,6 +37,6 @@ a.nav-bar-menu:hover { text-decoration: underline; }
 
 .current-page { color: #000000; text-decoration: underline; }
 
-.blog-logo-home { display: block; width: 35%; max-width: 100%; height: 35%; margin-left: auto; margin-right: auto; }
+.blog-logo-home { display: block; width: auto; max-width: 100%; height: auto; margin-left: auto; margin-right: auto; }
 
-.blog-post-content { font-size: 20px; width: 50%; margin: auto; }
+.blog-post-content { height: 100%; font-size: 24px; width: 40%; margin: auto; text-align: left; }
