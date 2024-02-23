@@ -8,7 +8,8 @@ greek villa - #F0ECE2
   .nav-bar-menu { width: 75% !important; }
   .nav-bar-item { font-size: 14px !important; }
   .blog-post-content { width: 85% !important; font-size: 18px !important; }
-  img.blog-logo-home { width: 50%; height: 50%; display: block; } }
+  img.blog-logo-home { width: 50%; height: 50%; display: block; }
+  .blog-post-summary { padding-left: 5vh !important; } }
 html { background-color: #F0ECE2; font-family: georgia, times-new-roman; overflow-y: scroll; height: 100vh; }
 
 body { min-height: 100%; display: grid; grid-template-rows: auto 1fr auto; word-wrap: break-word; }
@@ -40,3 +41,5 @@ a.nav-bar-menu:hover { text-decoration: underline; }
 .blog-logo-home { display: block; width: auto; max-width: 100%; height: auto; margin-left: auto; margin-right: auto; }
 
 .blog-post-content { height: 100%; font-size: 24px; width: 40%; margin: auto; text-align: left; }
+
+.blog-post-summary { font-size: 20px; padding-left: 10vh; }

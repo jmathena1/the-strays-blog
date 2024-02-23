@@ -10,10 +10,10 @@ title: The Strays
 		<li>
 			<p>
 				<a href="{{ post.url | relative_url }}">
-					{{ post.title }}
+					<h3>{{ post.title }}</h3>
 				</a>
 			</p>
-			{{ post.excerpt }}
+			<div class="blog-post-summary"> {{ post.excerpt }} </div>
 		</li>
 	{% endfor %}
 </ul>

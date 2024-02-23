@@ -30,7 +30,10 @@ greek villa - #F0ECE2
 		height: 50%;
 		display: block;
 	}
-}
+        .blog-post-summary {
+                padding-left: 5vh !important;
+        }
+  }
 
 html {
 	background-color: #F0ECE2;
@@ -136,4 +139,8 @@ a.nav-bar-menu:hover {
 	width: 40%;
 	margin: auto;
 	text-align: left;
+}
+.blog-post-summary {
+        font-size: 20px;
+        padding-left: 10vh;
 }
