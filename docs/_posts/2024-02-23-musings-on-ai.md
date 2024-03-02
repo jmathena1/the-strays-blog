@@ -1,6 +1,7 @@
 ---
 layout: post-the-strays
 author: John Mathena
+title: Musings on AI
 ---
 
 I'm trying to get in the habit of blogging a bit more frequently so this will seem less collected than other posts.

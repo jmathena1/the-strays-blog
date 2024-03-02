@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-02-23T23:54:15-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">the-strays-blog</title><subtitle>The home of John Mathena&apos;s stray throughts.</subtitle><entry><title type="html">Musings On Tech</title><link href="http://localhost:4000/2024/02/23/musings-on-tech.html" rel="alternate" type="text/html" title="Musings On Tech" /><published>2024-02-23T00:00:00-05:00</published><updated>2024-02-23T00:00:00-05:00</updated><id>http://localhost:4000/2024/02/23/musings-on-tech</id><content type="html" xml:base="http://localhost:4000/2024/02/23/musings-on-tech.html">&lt;p&gt;I’m trying to get in the habit of blogging a bit more frequently so this will seem less collected than other posts.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-03-02T16:55:49-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">the-strays-blog</title><subtitle>The home of John Mathena&apos;s stray throughts.</subtitle><entry><title type="html">Musings on AI pt 2</title><link href="http://localhost:4000/2024/02/25/musings-on-ai-pt-2.html" rel="alternate" type="text/html" title="Musings on AI pt 2" /><published>2024-02-25T00:00:00-05:00</published><updated>2024-02-25T00:00:00-05:00</updated><id>http://localhost:4000/2024/02/25/musings-on-ai-pt-2</id><content type="html" xml:base="http://localhost:4000/2024/02/25/musings-on-ai-pt-2.html">&lt;p&gt;Though I don’t feel anything from pt 1 was incorrect, I wanted lend a bit more credulity to AI and Machine Learning work. I’m gonna reference mostly work and posts from
+a machine learning engineer and tech writer I follow, Vicki Boykis. She has a great post from Feb 2023 on Chat GPT titled 
+&lt;a href=&quot;https://vickiboykis.com/2023/02/26/what-should-you-use-chatgpt-for&quot;&gt;“What should you use Chat GPT for?”&lt;/a&gt;. Part of her assessment from then:&lt;/p&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“So, for myself, my rules for engaging with Chat GPT are to give it small, inconsequential things it can iterate well on and that I have the ability to check…”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I think I saw Kareem Carr say something similar on Twitter (also a great follow if you’re not already).&lt;/p&gt;
+
+&lt;p&gt;Seems a good assessment. And this coming from someone with a lot of experience with software as a whole and machine learning in particular. Now I’ve also seen some
+(mostly on Twitter though again) compare the advent of LLM based coding tools to compilers. That doesn’t quite sit right with me. I don’t have a CS degree nor have I
+event taken a CS class, but I’ve been programming for the better part of a decade (professionally for about five years) and I can read so I’m gonna try to break down
+why. Maybe I’ll look back on this series in 10 years and cringe but whatever at least I tried.&lt;/p&gt;
+
+&lt;p&gt;Compilers essentially translate code written in one language into another language. This allows us to write in more human readable (high level) languages like Java rather than
+machine code (literal ones and zeroes corresponding to circuits and gates on the hardware).&lt;/p&gt;
+
+&lt;p&gt;Since computer scientists built the first compilers in the mid 20th century, we’ve gotten better and better at allowing software developers to write programs quickly and without caring so much the hardware. Whether this is good or bad depends on who you ask. I think lower
+barriers to pushing an app out the door has definitely led to some bloated software. When programmers don’t have to care about optmizing how their programs use hardware resources,
+they won’t. This is something I’m trying to care more about as I grow as a developer and programmer.&lt;/p&gt;
+
+&lt;p&gt;Enter AI that can write apps. When you can literally just type “build me a to do list app” and know next to nothing about programming or software development, and have ChatGPT give
+you something that may actually run, that’s not really programming. When you open a program written in Python and it gets compiled into bytecode and interpreted into machine code, you are utilizing
+explicit processes written by another human. When you open a program you got from ChatGPT, you’re getting a best guess. ChatGPT is troving the mountains of data on existing computer code
+it’s seen and trying to throw something back at you that seems to match what you said.&lt;/p&gt;
+
+&lt;p&gt;It’s very cool and can be accurate! But this is not what happens when you write computer code. Computers, for better or worse, do exactly what you tell them. You ask a computer to “Print”
+instead of “print”, not gonna run. You say a variable is equal to “one” instead of 1 (depending on the language), doesn’t know what you’re talking about. I’m sure every programmer will wax poetic about times like
+these. But what computers lack in forgiveness, they make up for in precision (usually).&lt;/p&gt;
+
+&lt;p&gt;I could go on, but yeah these AI tools are different than compilers. I’m not trying to gatekeep software and programming by any means. And I also know that creating efficient, quality
+software quickly is a real value-add and something worth pursuing. But I think you need trained professionals to do that. These AI code assistant tools could help programmers
+reference unfamiliar languages and frameworks faster and maybe do some auto-completion (though these kinds of features are not new to programmers).&lt;/p&gt;
+
+&lt;p&gt;There’s certainly room for improvement in modern software development, but I’m not convinced unleashing the AI tools will fix the current problems in the field. 
+I’m worried they’ll make things worse.&lt;/p&gt;</content><author><name>John Mathena</name></author><summary type="html">Though I don’t feel anything from pt 1 was incorrect, I wanted lend a bit more credulity to AI and Machine Learning work. I’m gonna reference mostly work and posts from a machine learning engineer and tech writer I follow, Vicki Boykis. She has a great post from Feb 2023 on Chat GPT titled “What should you use Chat GPT for?”. Part of her assessment from then: “So, for myself, my rules for engaging with Chat GPT are to give it small, inconsequential things it can iterate well on and that I have the ability to check…”</summary></entry><entry><title type="html">Musings on AI</title><link href="http://localhost:4000/2024/02/23/musings-on-ai.html" rel="alternate" type="text/html" title="Musings on AI" /><published>2024-02-23T00:00:00-05:00</published><updated>2024-02-23T00:00:00-05:00</updated><id>http://localhost:4000/2024/02/23/musings-on-ai</id><content type="html" xml:base="http://localhost:4000/2024/02/23/musings-on-ai.html">&lt;p&gt;I’m trying to get in the habit of blogging a bit more frequently so this will seem less collected than other posts.&lt;/p&gt;
 
 &lt;p&gt;I’ve largely avoided tinkering too much with the various generative AI tools. Mostly because I have little patience for signing up for new things
 and I’ve largely found my current methods of looking things up and getting things done adequate (maybe that’s my age showing). On top of that,
